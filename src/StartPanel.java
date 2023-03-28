@@ -222,6 +222,7 @@ public class StartPanel extends JPanel implements ActionListener{
   }
 
   public void actionPerformed(ActionEvent ae){
+    celebrityCount++;
     // when "add celebrity" button gets clicked:
     answerField.setBackground(Color.WHITE);
     clueField.setBackground(Color.WHITE);
